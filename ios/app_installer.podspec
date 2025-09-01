@@ -22,6 +22,5 @@ Pod::Spec.new do |s|
   
   # 添加模块支持
   s.module_name = 'app_installer'
-  s.module_map = 'app_installer.modulemap'
 end
 
