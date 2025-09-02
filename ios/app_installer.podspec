@@ -12,8 +12,6 @@ Pod::Spec.new do |s|
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
-  s.header_dir = 'app_installer'
-  s.header_mappings_dir = 'Classes'
   s.dependency 'Flutter'
 
   # 更新 iOS 部署目标版本
